@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "Portainer",
+  "version": "1.0",
+  "description": "Open Portainer.",
+  "permissions": ["activeTab"],
+  "icons": {
+    "16": "icon.png"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_icon": "icon.png"
+  }
+}
